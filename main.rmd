@@ -1,0 +1,23 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r include=FALSE}
+setwd("C:/Users/Filipp/Documents/capstone_usd_502/ADS-502-Project")
+require(data.table)
+memory.limit(size=56000) #hold me I'm scared
+```
+
+```{r}
+train = as.data.frame(fread('data/train.csv'))
+```
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+print(train.shape())
+```
+
+
